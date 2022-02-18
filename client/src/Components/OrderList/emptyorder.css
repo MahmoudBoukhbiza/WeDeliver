@@ -1,0 +1,33 @@
+.emptyCart {
+  height: calc(100vh - 13.7rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emptyCart img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 150px;
+}
+
+.emptyCart button {
+  width: 200px;
+}
+
+.emptyCart button a:link,
+.emptyCart button a:visited {
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.emptyCart button a:hover,
+.emptyCart button a:active {
+  background-color: #cb4b3f;
+  color: #eee;
+  transition-duration: 0.5s;
+}

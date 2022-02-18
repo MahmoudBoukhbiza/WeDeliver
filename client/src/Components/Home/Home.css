@@ -1,0 +1,39 @@
+body {
+  padding-top: 50px;
+  width: 90%;
+}
+
+.home {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-image: url("home-bg.png");
+}
+
+.home img {
+  width: 50%;
+}
+
+.main-txt {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: left;
+}
+
+.main-txt h1 {
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+.main-txt button {
+  width: 200px;
+  margin: 10px 0px;
+}
+
+.main-txt p {
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+

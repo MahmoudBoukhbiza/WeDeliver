@@ -1,0 +1,19 @@
+.restaurantItem {
+  margin: 10px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.restaurantDsc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.restaurantDsc button {
+  width: 200px;
+  margin: 10px 0px;
+}

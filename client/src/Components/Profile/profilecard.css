@@ -1,0 +1,30 @@
+.food-card {
+  margin: 10px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.food-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+
+
+.edit-delete-btn button{
+    width: 80px;
+}
+
+.dlt-btn{
+    background-color: red;
+}
+
+.edit-btn{
+    background-color:rgb(57, 255, 57);
+}

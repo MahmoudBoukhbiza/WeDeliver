@@ -1,0 +1,28 @@
+.aboutus-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutus-main img {
+  width: 50%;
+}
+
+.main-txt {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.main-txt h1 {
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+.main-txt button {
+  width: 200px;
+}
+
+.main-txt p {
+    font-weight: 500;
+  }
